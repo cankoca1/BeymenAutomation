@@ -1,0 +1,12 @@
+2024-03-31 23:03:465 INFO  ManageDriver :31 - Launching Chrome Browser
+2024-03-31 23:03:898 INFO  BeymenPage :54 - Step -> I enter "<row1>", "<row2>" and "<column1>","<column2>" word to searchbox initalized.
+2024-03-31 23:03:207 INFO  BeymenPage :72 - Word from Excel: şort
+2024-03-31 23:03:567 INFO  BeymenPage :96 - Word from Excel: Gömlek
+2024-03-31 23:03:127 INFO  BeymenPage :105 - Step Successful!
+2024-03-31 23:03:128 INFO  BeymenPage :109 - Step -> I pick a random item and add it to cart initialized
+2024-03-31 23:03:11 INFO  BeymenPage :129 - Price on search section: 5299
+2024-03-31 23:03:942 INFO  BeymenPage :138 - Price on cart section: 5299
+2024-03-31 23:03:943 INFO  BeymenPage :140 - Step Successful!
+2024-03-31 23:03:944 INFO  BeymenPage :145 - Step -> I add more item and empty the cart initialized 
+2024-03-31 23:03:14 ERROR BeymenPage :171 - Test successful!
+2024-03-31 23:03:15 INFO  BeymenPage :172 -                                       ---------------- ------------------

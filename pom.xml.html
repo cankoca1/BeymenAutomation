@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>pom.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #6aab73;}
+.s3 { color: #bcbec4;}
+.s4 { color: #7a7e85;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+pom.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;UTF-8&quot;</span><span class="s0">?&gt;</span>
+
+<span class="s0">&lt;project </span><span class="s1">xmlns</span><span class="s2">=&quot;http://maven.apache.org/POM/4.0.0&quot; </span><span class="s1">xmlns:xsi</span><span class="s2">=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span>
+         <span class="s1">xsi:schemaLocation</span><span class="s2">=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;modelVersion&gt;</span><span class="s3">4.0.0</span><span class="s0">&lt;/modelVersion&gt;</span>
+
+    <span class="s0">&lt;groupId&gt;</span><span class="s3">com.automation</span><span class="s0">&lt;/groupId&gt;</span>
+    <span class="s0">&lt;artifactId&gt;</span><span class="s3">MukavaleAutomation</span><span class="s0">&lt;/artifactId&gt;</span>
+    <span class="s0">&lt;version&gt;</span><span class="s3">1.0-SNAPSHOT</span><span class="s0">&lt;/version&gt;</span>
+
+    <span class="s0">&lt;name&gt;</span><span class="s3">automation-practice-cucumber-1</span><span class="s0">&lt;/name&gt;</span>
+    <span class="s4">&lt;!-- FIXME change it to the project's website --&gt;</span>
+    <span class="s0">&lt;url&gt;</span><span class="s3">http://www.example.com</span><span class="s0">&lt;/url&gt;</span>
+
+
+    <span class="s0">&lt;properties&gt;</span>
+        <span class="s0">&lt;project.build.sourceEncoding&gt;</span><span class="s3">UTF-8</span><span class="s0">&lt;/project.build.sourceEncoding&gt;</span>
+        <span class="s0">&lt;maven.compiler.source&gt;</span><span class="s3">1.7</span><span class="s0">&lt;/maven.compiler.source&gt;</span>
+        <span class="s0">&lt;maven.compiler.target&gt;</span><span class="s3">1.7</span><span class="s0">&lt;/maven.compiler.target&gt;</span>
+    <span class="s0">&lt;/properties&gt;</span>
+
+    <span class="s0">&lt;dependencies&gt;</span>
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">junit</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">junit</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">4.11</span><span class="s0">&lt;/version&gt;</span>
+            <span class="s0">&lt;scope&gt;</span><span class="s3">test</span><span class="s0">&lt;/scope&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">com.google.guava</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">guava</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">31.0.1-jre</span><span class="s0">&lt;/version&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">org.seleniumhq.selenium</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">selenium-java</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">4.11.0</span><span class="s0">&lt;/version&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">io.github.bonigarcia</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">webdrivermanager</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">5.1.0</span><span class="s0">&lt;/version&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">org.testng</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">testng</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">6.14.3</span><span class="s0">&lt;/version&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">commons-io</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">commons-io</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">2.6</span><span class="s0">&lt;/version&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+        <span class="s4">&lt;!-- Cucumber Dependency --&gt;</span>
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">info.cukes</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">cucumber-junit</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">1.2.5</span><span class="s0">&lt;/version&gt;</span>
+            <span class="s0">&lt;scope&gt;</span><span class="s3">test</span><span class="s0">&lt;/scope&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">info.cukes</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">cucumber-java</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">1.2.5</span><span class="s0">&lt;/version&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">info.cukes</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">cucumber-core</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">1.2.5</span><span class="s0">&lt;/version&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+        <span class="s4">&lt;!-- poi for excel file reader --&gt;</span>
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">org.apache.poi</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">poi-ooxml</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">3.17</span><span class="s0">&lt;/version&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+        <span class="s4">&lt;!-- Extent Reports --&gt;</span>
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">com.vimalselvam</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">cucumber-extentsreport</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">3.0.2</span><span class="s0">&lt;/version&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+        <span class="s4">&lt;!-- Extent Reports --&gt;</span>
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">com.aventstack</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">extentreports</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">3.1.2</span><span class="s0">&lt;/version&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">log4j</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">log4j</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">1.2.17</span><span class="s0">&lt;/version&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+
+    <span class="s0">&lt;/dependencies&gt;</span>
+
+    <span class="s0">&lt;build&gt;</span>
+        <span class="s0">&lt;pluginManagement&gt;</span><span class="s4">&lt;!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) --&gt;</span>
+            <span class="s0">&lt;plugins&gt;</span>
+                <span class="s4">&lt;!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle --&gt;</span>
+                <span class="s0">&lt;plugin&gt;</span>
+                    <span class="s0">&lt;artifactId&gt;</span><span class="s3">maven-clean-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                    <span class="s0">&lt;version&gt;</span><span class="s3">3.1.0</span><span class="s0">&lt;/version&gt;</span>
+                <span class="s0">&lt;/plugin&gt;</span>
+                <span class="s4">&lt;!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging --&gt;</span>
+                <span class="s0">&lt;plugin&gt;</span>
+                    <span class="s0">&lt;artifactId&gt;</span><span class="s3">maven-resources-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                    <span class="s0">&lt;version&gt;</span><span class="s3">3.0.2</span><span class="s0">&lt;/version&gt;</span>
+                <span class="s0">&lt;/plugin&gt;</span>
+                <span class="s0">&lt;plugin&gt;</span>
+                    <span class="s0">&lt;artifactId&gt;</span><span class="s3">maven-compiler-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                    <span class="s0">&lt;version&gt;</span><span class="s3">3.8.0</span><span class="s0">&lt;/version&gt;</span>
+                <span class="s0">&lt;/plugin&gt;</span>
+                <span class="s0">&lt;plugin&gt;</span>
+                    <span class="s0">&lt;artifactId&gt;</span><span class="s3">maven-surefire-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                    <span class="s0">&lt;version&gt;</span><span class="s3">2.22.1</span><span class="s0">&lt;/version&gt;</span>
+                <span class="s0">&lt;/plugin&gt;</span>
+                <span class="s0">&lt;plugin&gt;</span>
+                    <span class="s0">&lt;artifactId&gt;</span><span class="s3">maven-jar-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                    <span class="s0">&lt;version&gt;</span><span class="s3">3.0.2</span><span class="s0">&lt;/version&gt;</span>
+                <span class="s0">&lt;/plugin&gt;</span>
+                <span class="s0">&lt;plugin&gt;</span>
+                    <span class="s0">&lt;artifactId&gt;</span><span class="s3">maven-install-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                    <span class="s0">&lt;version&gt;</span><span class="s3">2.5.2</span><span class="s0">&lt;/version&gt;</span>
+                <span class="s0">&lt;/plugin&gt;</span>
+                <span class="s0">&lt;plugin&gt;</span>
+                    <span class="s0">&lt;artifactId&gt;</span><span class="s3">maven-deploy-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                    <span class="s0">&lt;version&gt;</span><span class="s3">2.8.2</span><span class="s0">&lt;/version&gt;</span>
+                <span class="s0">&lt;/plugin&gt;</span>
+                <span class="s4">&lt;!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle --&gt;</span>
+                <span class="s0">&lt;plugin&gt;</span>
+                    <span class="s0">&lt;artifactId&gt;</span><span class="s3">maven-site-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                    <span class="s0">&lt;version&gt;</span><span class="s3">3.7.1</span><span class="s0">&lt;/version&gt;</span>
+                <span class="s0">&lt;/plugin&gt;</span>
+                <span class="s0">&lt;plugin&gt;</span>
+                    <span class="s0">&lt;artifactId&gt;</span><span class="s3">maven-project-info-reports-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                    <span class="s0">&lt;version&gt;</span><span class="s3">3.0.0</span><span class="s0">&lt;/version&gt;</span>
+                <span class="s0">&lt;/plugin&gt;</span>
+                <span class="s0">&lt;plugin&gt;</span>
+                    <span class="s0">&lt;groupId&gt;</span><span class="s3">org.apache.maven.plugins</span><span class="s0">&lt;/groupId&gt;</span>
+                    <span class="s0">&lt;artifactId&gt;</span><span class="s3">maven-war-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                    <span class="s0">&lt;version&gt;</span><span class="s3">3.3.1</span><span class="s0">&lt;/version&gt;</span>
+                <span class="s0">&lt;/plugin&gt;</span>
+                <span class="s0">&lt;plugin&gt;</span>
+                    <span class="s0">&lt;groupId&gt;</span><span class="s3">org.apache.maven.plugins</span><span class="s0">&lt;/groupId&gt;</span>
+                    <span class="s0">&lt;artifactId&gt;</span><span class="s3">maven-compiler-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                    <span class="s0">&lt;version&gt;</span><span class="s3">3.8.1</span><span class="s0">&lt;/version&gt;</span>
+                <span class="s0">&lt;/plugin&gt;</span>
+
+            <span class="s0">&lt;/plugins&gt;</span>
+        <span class="s0">&lt;/pluginManagement&gt;</span>
+        <span class="s0">&lt;plugins&gt;</span>
+            <span class="s0">&lt;plugin&gt;</span>
+                <span class="s0">&lt;groupId&gt;</span><span class="s3">org.apache.maven.plugins</span><span class="s0">&lt;/groupId&gt;</span>
+                <span class="s0">&lt;artifactId&gt;</span><span class="s3">maven-compiler-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                <span class="s0">&lt;configuration&gt;</span>
+                    <span class="s0">&lt;source&gt;</span><span class="s3">8</span><span class="s0">&lt;/source&gt;</span>
+                    <span class="s0">&lt;target&gt;</span><span class="s3">8</span><span class="s0">&lt;/target&gt;</span>
+                <span class="s0">&lt;/configuration&gt;</span>
+            <span class="s0">&lt;/plugin&gt;</span>
+
+        <span class="s0">&lt;/plugins&gt;</span>
+    <span class="s0">&lt;/build&gt;</span>
+<span class="s0">&lt;/project&gt;</span></pre>
+</body>
+</html>

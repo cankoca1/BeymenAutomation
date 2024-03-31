@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f942ed8e-28b2-4c17-83ce-a4165dc24f06" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2atadRfmAYhhg3XTXV7Ja9n0oi0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Scenario: User should compare exit screen prices with choosen price.executor": "Run",
+    "Cucumber Java.Scenario: User should do reservation.executor": "Run",
+    "Cucumber Java.Scenario: User should go to bigger page numbers and should verify default page.executor": "Run",
+    "Cucumber Java.Scenario: User should go to last see more button and should verify button not clickable.executor": "Run",
+    "Cucumber Java.Scenario: User should scroll and should verify pagination number at facility.executor": "Run",
+    "Cucumber Java.Scenario: User should scroll and should verify pagination number at poi.executor": "Run",
+    "Cucumber Java.Scenario: User should scroll and should verify pagination number at villa.executor": "Run",
+    "Cucumber Java.Scenario: User should scroll and should verify pagination number.executor": "Run",
+    "Cucumber Java.Scenario: User should scroll and verify clickablity of Loadmore button.executor": "Run",
+    "Cucumber Java.Scenario: User should select page and should verify pagination number and faq areas at facility.executor": "Run",
+    "Cucumber Java.Scenario: User should select page and should verify pagination number and faq areas at poi.executor": "Run",
+    "Cucumber Java.Scenario: User should select page and should verify pagination number and faq areas at villa.executor": "Run",
+    "Cucumber Java.Scenario: User should sort and verify listing pages.executor": "Run",
+    "Cucumber Java.Scenario: User should sort higher point and verify listing pages.executor": "Run",
+    "Cucumber Java.Scenario: User should sort higher price and verify listing pages.executor": "Run",
+    "Cucumber Java.Scenario: User should sort lower price and verify listing pages.executor": "Run",
+    "Cucumber Java.Scenario: User should verify facility card number.executor": "Run",
+    "Cucumber Java.Scenario: User should verify filtered facility type number.executor": "Run",
+    "Cucumber Java.Scenario: User should verify filtered price amount.executor": "Run",
+    "Cucumber Java.Scenario: User should verify loginpage.executor": "Run",
+    "Cucumber Java.Scenario: User should verify of cannonical value with url.executor": "Run",
+    "Cucumber Java.Scenario: User should visit the website asd.executor": "Run",
+    "Cucumber Java.Scenario: User should visit the website.executor": "Run",
+    "JUnit.TestRunner.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/cankoca/Desktop/BeymenAutomation/.idea",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.automation.pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cankoca\Desktop\BeymenAutomation\.idea" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cankoca\Desktop\NeredekalAutomation(new)\src\main\java\com\automation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: User should verify loginpage">
+    <configuration name="Scenario: User should do reservation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/featurefile/Neredekal.feature" />
+      <option name="GLUE" value="com.automation.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="BeymenAutomation" />
+      <option name="NAME_FILTER" value="^User should do reservation$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User should do reservation$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User should do reservation" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User should sort lower price and verify listing pages" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/NeredekalAutomation(new)/src/test/java/resources/featurefile/Neredekal.feature" />
+      <option name="GLUE" value="com.automation.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="MukaveleAutomation" />
+      <option name="NAME_FILTER" value="^User should sort lower price and verify listing pages$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User should sort lower price and verify listing pages$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User should sort lower price and verify listing pages" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User should verify loginpage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/featurefile/Beymen.feature" />
+      <option name="GLUE" value="com.automation.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="BeymenAutomation" />
+      <option name="NAME_FILTER" value="^User should verify loginpage$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User should verify loginpage$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User should verify loginpage" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User should visit the website asd" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/featurefile/Beymen.feature" />
+      <option name="GLUE" value="com.automation.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="BeymenAutomation" />
+      <option name="NAME_FILTER" value="^User should visit the website asd$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User should visit the website asd$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User should visit the website asd" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User should visit the website" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/featurefile/Beymen.feature" />
+      <option name="GLUE" value="com.automation.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="BeymenAutomation" />
+      <option name="NAME_FILTER" value="^User should visit the website$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User should visit the website$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User should visit the website" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: User should verify loginpage" />
+        <item itemvalue="Cucumber Java.Scenario: User should visit the website asd" />
+        <item itemvalue="Cucumber Java.Scenario: User should visit the website" />
+        <item itemvalue="Cucumber Java.Scenario: User should do reservation" />
+        <item itemvalue="Cucumber Java.Scenario: User should sort lower price and verify listing pages" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f942ed8e-28b2-4c17-83ce-a4165dc24f06" name="Changes" comment="" />
+      <created>1705140417419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705140417419</updated>
+    </task>
+    <servers />
+  </component>
+</project>
